@@ -1,8 +1,7 @@
 import time
 import board
 import pulseio
-from adafruit_motor import servo
-from adafruit_motor import motor
+from adafruit_motor import servo, motor
 
 # create a PWMOut object on Pin A2.
 # duty_cycle=2 ** 15,
