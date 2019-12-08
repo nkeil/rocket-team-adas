@@ -6,7 +6,7 @@ import adafruit_bno055
 
 i2c = busio.I2C(board.SCL, board.SDA)
 sensor = adafruit_bno055.BNO055(i2c)
-f = open('data.txt', a)
+f = open('data.txt', "a")
 f.write('{:5}'.format('#'))
 f.write('{:10}'.format('AccX'))
 f.write('{:10}'.format('AccY'))
